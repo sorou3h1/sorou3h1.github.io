@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -27,12 +28,210 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.png">
 
   <title>sorou3h1_portfolio</title>
   <link rel="manifest" href="manifest.json">
+
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: top;
+      background-color: transparent;
+    }
+
+    .center-text {
+      font-size: 24px;
+      color: #ffffff;
+      margin-top: 10vh;
+      margin-left: 5vh;
+      margin-right: 5vh;
+      text-align: center;
+    }
+  </style>
+
+  <style type="text/css">
+    @keyframes ldio-yzaezf3dcmj {
+      0% {
+        opacity: 1
+      }
+
+      100% {
+        opacity: 0
+      }
+    }
+
+    .ldio-yzaezf3dcmj div {
+      left: 94px;
+      top: 48px;
+      position: absolute;
+      animation: ldio-yzaezf3dcmj linear 1s infinite;
+      background: #fe718d;
+      width: 12px;
+      height: 24px;
+      border-radius: 6px / 12px;
+      transform-origin: 6px 52px;
+    }
+
+    .ldio-yzaezf3dcmj div:nth-child(1) {
+      transform: rotate(0deg);
+      animation-delay: -0.8571428571428571s;
+      background: #d4a056;
+    }
+
+    .ldio-yzaezf3dcmj div:nth-child(2) {
+      transform: rotate(51.42857142857143deg);
+      animation-delay: -0.7142857142857143s;
+      background: #d4a056;
+    }
+
+    .ldio-yzaezf3dcmj div:nth-child(3) {
+      transform: rotate(102.85714285714286deg);
+      animation-delay: -0.5714285714285714s;
+      background: #d4a056;
+    }
+
+    .ldio-yzaezf3dcmj div:nth-child(4) {
+      transform: rotate(154.28571428571428deg);
+      animation-delay: -0.42857142857142855s;
+      background: #d4a056;
+    }
+
+    .ldio-yzaezf3dcmj div:nth-child(5) {
+      transform: rotate(205.71428571428572deg);
+      animation-delay: -0.2857142857142857s;
+      background: #d4a056;
+    }
+
+    .ldio-yzaezf3dcmj div:nth-child(6) {
+      transform: rotate(257.14285714285717deg);
+      animation-delay: -0.14285714285714285s;
+      background: #d4a056;
+    }
+
+    .ldio-yzaezf3dcmj div:nth-child(7) {
+      transform: rotate(308.57142857142856deg);
+      animation-delay: 0s;
+      background: #d4a056;
+    }
+
+    .loadingio-spinner-spinner-2by998twmg8 {
+      width: 200px;
+      height: 200px;
+      background-color: transparent;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+
+      margin: auto;
+    }
+
+    .ldio-yzaezf3dcmj {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transform: translateZ(0) scale(1);
+      backface-visibility: hidden;
+      transform-origin: 0 0;
+    }
+
+    .ldio-yzaezf3dcmj div {
+      box-sizing: content-box;
+    }
+  </style>
+
+
+  <style id="splash-screen-style">
+    html {
+      height: 100%
+    }
+
+    body {
+      margin: 0;
+      min-height: 100%;
+      background-color: #000000;
+      background-size: 100% 100%;
+    }
+
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+
+    .contain {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .stretch {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .cover {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .bottom {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      -ms-transform: translate(-50%, 0);
+      transform: translate(-50%, 0);
+    }
+
+    .bottomLeft {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+
+    .bottomRight {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  </style>
+  <script id="splash-screen-script">
+    function removeSplashFromWeb() {
+      document.getElementById("splash")?.remove();
+      document.getElementById("splash-branding")?.remove();
+      document.getElementById("loading")?.remove();
+      document.getElementById("center-text")?.remove();
+      document.body.style.background = "transparent";
+    }
+  </script>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
 </head>
+
 <body>
-  <script src="flutter_bootstrap.js" async></script>
+  <script src="flutter_bootstrap.js" async=""></script>
+  <div id="loading" class="loadingio-spinner-spinner-2by998twmg8">
+    <div class="ldio-yzaezf3dcmj">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <div id="center-text" class="center-text">Almost there… Flutter promises it’s trying.</div>
+
 </body>
+
 </html>
