@@ -1,0 +1,16 @@
+{
+  "last_booted_patch": {
+    "number": 2,
+    "size": 7144028,
+    "hash": "d1471c864df3c7216a13371c1b4aefff9d53464d7bb0f0be6836e62bef749909",
+    "signature": null
+  },
+  "next_boot_patch": {
+    "number": 2,
+    "size": 7144028,
+    "hash": "d1471c864df3c7216a13371c1b4aefff9d53464d7bb0f0be6836e62bef749909",
+    "signature": null
+  },
+  "currently_booting_patch": null,
+  "known_bad_patches": []
+}
