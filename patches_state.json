@@ -1,14 +1,9 @@
 {
-  "last_booted_patch": {
-    "number": 2,
-    "size": 7144028,
-    "hash": "d1471c864df3c7216a13371c1b4aefff9d53464d7bb0f0be6836e62bef749909",
-    "signature": null
-  },
+  "last_booted_patch": null,
   "next_boot_patch": {
     "number": 2,
-    "size": 7144028,
-    "hash": "d1471c864df3c7216a13371c1b4aefff9d53464d7bb0f0be6836e62bef749909",
+    "size": 7406172,
+    "hash": "80e05227f1911e7537faa4d2b830572858f74692aa96f2a8f0146781fdb57950",
     "signature": null
   },
   "currently_booting_patch": null,
