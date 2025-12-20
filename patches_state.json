@@ -2,7 +2,7 @@
   "last_booted_patch": null,
   "next_boot_patch": {
     "number": 999,
-    "size": 7406172,
+    "size": 6947760,
     "hash": "13f07df7a620c625f91e0280a67ad80d7141bdd1d070b8582bbd0cc8f965cc95",
     "signature": null
   },
