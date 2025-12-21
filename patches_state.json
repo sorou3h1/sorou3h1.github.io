@@ -3,7 +3,7 @@
   "next_boot_patch": {
     "number": 999,
     "size": 7013296,
-    "hash": "12c6f5f6171a65b64741d540dfca6e2a4f0d41d46a040e0a1ece753fbb6f3016",
+    "hash": "d7875ae231925fc1a4a2a66b2535ebd4a61efd13c1137791189e53cd06b5216f",
     "signature": null
   },
   "currently_booting_patch": null,
